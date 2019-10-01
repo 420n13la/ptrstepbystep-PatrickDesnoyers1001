@@ -1,12 +1,20 @@
 body { background-color: #FFFFFF;
       color: #666666;
-	  font-family: Verdana, Arial, sans-serif;
+	  font-family: Helvetica, Verdana, Arial, sans-serif;
+	background-image: linear-gradient(to bottom, #3399CC, #C2E0F0, #3399CC);
 }
 header { background-color: #000033;
          color: #FFFFFF;
 		 font-family: Georgia, serif; 
 }
-h1 { line-height: 200%; }
+h1 { line-height: 200%;
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	padding-left: 1em;
+	height: 72px;
+	margin-bottom: 0;
+}
 nav { font-weight: bold;
       background-color: #90C7E3; 
 }
